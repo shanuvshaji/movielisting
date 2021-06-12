@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Movies Listing App</string>
+    <string name="labelName">Movies Listing App</string>
+    <string name="first_fragment_label">PopularMovies Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="details_fragment_label">Details Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="error">Error</string>
+    <string name="retry">Retry</string>
+    <string name="cancel">Cancel</string>
+    <string name="hello">Hello,</string>
+    <string name="guest">Guest</string>
+    <string name="now_play">Now Playing</string>
+
+</resources>
