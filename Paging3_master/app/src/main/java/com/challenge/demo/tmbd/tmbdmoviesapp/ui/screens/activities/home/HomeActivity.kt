@@ -17,7 +17,7 @@ import com.challenge.demo.tmbd.tmbdmoviesapp.databinding.ActivityHomeBinding
 import com.challenge.demo.tmbd.tmbdmoviesapp.listeners.OnRecyclerViewItemClick
 import com.challenge.demo.tmbd.tmbdmoviesapp.ui.adapters.LoadingGridStateAdapter
 import com.challenge.demo.tmbd.tmbdmoviesapp.ui.adapters.MovieListAdapter
-import com.challenge.demo.tmbd.tmbdmoviesapp.ui.screens.activities.movie_datails.MovieDetailsPage
+import com.challenge.demo.tmbd.tmbdmoviesapp.ui.screens.activities.movie_details.MovieDetailsPage
 import kotlinx.android.synthetic.main.activity_home.*
 
 

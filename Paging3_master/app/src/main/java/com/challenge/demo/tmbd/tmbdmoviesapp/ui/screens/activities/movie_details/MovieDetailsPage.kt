@@ -1,4 +1,4 @@
-package com.challenge.demo.tmbd.tmbdmoviesapp.ui.screens.activities.movie_datails
+package com.challenge.demo.tmbd.tmbdmoviesapp.ui.screens.activities.movie_details
 
 import android.graphics.drawable.Drawable
 import android.os.Bundle
@@ -33,6 +33,9 @@ class MovieDetailsPage : AppCompatActivity() {
         setInfo(mMovieData)
     }
 
+    /**
+     *  setting transparent status bar
+     */
     private fun setTransition(extras: Bundle) {
         val w: Window = window
         w.setFlags(
@@ -46,6 +49,9 @@ class MovieDetailsPage : AppCompatActivity() {
         detail_imageview.transitionName = imageTransitionName
     }
 
+    /**
+     * Setting up the image and details of the movie
+     */
     private fun setInfo(movie: Movies.Movie?) {
 
         Glide.with(this)

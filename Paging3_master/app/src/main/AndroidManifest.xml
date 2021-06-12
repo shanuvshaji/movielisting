@@ -22,7 +22,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ui.screens.activities.movie_datails.MovieDetailsPage"
+            android:name=".ui.screens.activities.movie_details.MovieDetailsPage"
             android:screenOrientation="portrait"
             android:theme="@style/WhiteFull_transp">
 
